@@ -11,4 +11,4 @@ draft: false
 Du kan læse mere om foreningen her:
 https://www.sn.dk/art6443755/fredensborg-kommune/nyhed/kickflipper-vildt-skatere-glaeder-sig-over-penge-til-ny-bane/
 
-Du kan føle med i opførslen af den nye bane her på siden, under "Blog".
+Du kan følge med i opførslen af den nye bane her på siden, under "Blog".
