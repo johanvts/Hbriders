@@ -2,6 +2,9 @@ baseURL = 'https://johanvts.github.io/hbriders/'
 languageCode = 'da-dk'
 title = 'Proposed Page'
 theme = 'alpha-church'
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 rssLimit = 5
 pagination.pagerSize = 4
@@ -21,7 +24,6 @@ enableEmoji = true
 
 [taxonomies]
   tag = "tags"
-  preacher = "preachers"
   series = "series"
 
 #This theme can generate a multi-level menu.
