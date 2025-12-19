@@ -1,12 +1,12 @@
 +++
 [banner]
   [[banner.button]]
-      url = "/hbriders/kontakt"
+      url = "/Hbriders/kontakt"
       text = "Bliv medlem"
       type = "primary"
 
   [[banner.button]]
-      url = "/hbriders/om"
+      url = "/Hbriders/om"
       text = "Om os"
 
 #Details for the box below the banner
@@ -23,13 +23,13 @@
     image = "img/blivmedlem.jpg"
     title = "Bliv Medlem"
     text = "Støt forenings arbejde med opførslen af den nye bane."
-    url = "/hbriders/kontakt"
+    url = "/Hbriders/kontakt"
     button_text = "Læs mere"
 
   [[feature_images.tile]]
     image = "img/byggeblog.jpg"
     title = "Bygge blog"	
     text = "Humlebæk skaterbane ombygges."
-    url = "/hbriders/posts"
+    url = "/Hbriders/posts"
     button_text="Følg med i byggeriet"
 +++
