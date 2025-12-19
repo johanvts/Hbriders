@@ -1,5 +1,5 @@
 baseURL = 'https://johanvts.github.io/hbriders/'
-languageCode = 'en-us'
+languageCode = 'da-dk'
 title = 'Proposed Page'
 theme = 'alpha-church'
 
@@ -28,69 +28,31 @@ enableEmoji = true
 #Use weight= to specify the order of menu items, and parent= to create a submenu item.
 [menu]
   [[menu.main]]
-    name = "Home"
+    name = "Find parken"
     url = "/"
-    weight = 1
-
-  [[menu.main]]
-    name = "About"
-    url = "/about"
     weight = 2
 
   [[menu.main]]
-    name = "About Us"
-    parent = "About"
-    url = "/about"
-    weight = 1
-
-  [[menu.main]]
-    name = "Leaders"
-    parent = "About"
-    url = "/leaders"
+    name = "Om os"
+    url = "/om"
     weight = 2
-
-  [[menu.main]]
-    name = "Resources"
-    url = "#"
-    weight = 3
-
-  [[menu.main]]
-    name = "Sermons"
-    url = "/sermons"
-    parent = "Resources"
-    weight = 1
-
-  [[menu.main]]
-    name = "Preachers"
-    url = "/preachers"
-    parent = "Sermons"
-    weight = 1
-
-  [[menu.main]]
-    name = "Best Ever"
-    url = "#"
-    parent = "Sermons"
-    weight = 1
 
   [[menu.main]]
     name = "Blog"
     url = "/posts"
-    parent = "Resources"
     weight = 2
 
   [[menu.main]]
-    name = "Contact"
-    url = "/contact"
-    weight = 4
+    name = "Bliv medlem"
+    url = "/kontakt"
+    weight = 2
 
 # Paramaters for the whole site
 [params]
-  title = "Alpha Church"
-  subtitle = "Another Church Theme"
-  keywords = ["theme", "hugo", "podcast"]
-  languageCode = "en" # For accessibility this needs to be set. You can find all language codes at https://www.w3schools.com/tags/ref_language_codes.asp
-  bible_popups = "faithlife" #faithlife, blb
-  bible_version = "CSB" #HCSB, NIV, NLT, ESV, etc.
+  title = "Humlebæk Riders"
+  subtitle = "En Skateforening"
+  keywords = ["theme", "hugo", "skating"]
+  languageCode = "da" # For accessibility this needs to be set. You can find all language codes at https://www.w3schools.com/tags/ref_language_codes.asp
   instant_page = true
   customCSS = ["example.css"]
 
@@ -99,9 +61,9 @@ enableEmoji = true
     email = "test@example.com"
 
   [params.favicon]
-    sml = "/example16.png"
-    med = "/example32.png"
-    #lge = "example96.png"
+    sml = "/favicon-16x16.png"
+    med = "/favicon-32x32.png"
+    lge = "/large.png"
 
   [params.banner]
     image = "img/banner.jpg"
@@ -109,23 +71,12 @@ enableEmoji = true
 #  [params.style]
 #    googleFonts = ["Cardo", "Crimson+Text", "Merriweather", "Playfair+Display:400,700", "Roboto+Slab"]
 
-  [params.podcast]
-    title = "Listen to Alpha Church"
-    summary = "Alpha-Church sermons, talks, messages—podcasted."
-    copyright = "The files in the podcast are in the public domain."
-    image = "img/podcast-cover.jpg"
-    category = "Religion & Spirituality"
-    sub_category = "Christianity"
-    iTunes = "https://itunes.apple.com/us/podcast/tgc-word-of-the-week/id1034013280"
-    feed = "https://www.thegospelcoalition.org/podcasts/word-of-the-week/feed/?feed=podcast"
-    spotify = "https://open.spotify.com/show/1iE3aJkf8fJ2FVTvJGFd4h"
-
   [params.map]
     service = "osm" #"osm" for OpenStreetMaps, "google" for Google Maps, or "mapbox" for Mapbox, see SETUP.md
     # For Open Street Map widgets
-    latitude = "48.8530"
-    longitude = "2.3498"
-    zoom = "18"
+    latitude = "55.96526975069883"
+    longitude = "12.524326155203283"
+    zoom = "16"
     # If you want to use google maps you'll need an API Key from Google https://developers.google.com/maps/documentation/embed/get-api-key
     #service = "google"
     #api_key = ""
@@ -155,31 +106,13 @@ enableEmoji = true
                   ]
 
     [[params.links]]
-      service = "Twitter"
-      icon = "fa-twitter"
-      icon_pack = "fab"
-      link = "//twitter.com/"
-
-    [[params.links]]
       service = "Facebook"
       icon = "fa-facebook"
       icon_pack = "fab"
-      link = "//facebook.com/"
-
-    [[params.links]]
-      service = "Podcast"
-      icon = "fa-podcast"
-      icon_pack = "fas"
-      link = "/sermons/index.xml"
+      link = "https://www.facebook.com/groups/5649256345174481/"
 
     [[params.links]]
       service = "Instagram"
       icon = "fa-instagram"
       icon_pack = "fab"
-      link = "//instagram.com"
-
-    [[params.links]]
-      service = "Full RSS Feed"
-      icon = "fa-rss"
-      icon_pack = "fas"
-      link = "/index.xml"
+      link = "https://www.instagram.com/humlebaekriders/"
