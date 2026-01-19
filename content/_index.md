@@ -12,7 +12,7 @@
 #Details for the box below the banner
 [services]
   title = "Find skaterbanen"
-  text = "Humlebæk Skaterpark er nu under ombygning."
+  text = "OBS: Humlebæk Skaterpark er under ombygning og er p.t. afspærret."
   map_location = "Nederste Torpenvej 6"
 
 [feature_images]
