@@ -28,7 +28,7 @@
 
   [[feature_images.tile]]
     image = "img/byggeblog.jpg"
-    title = "Bygge blog"	
+    title = "Byggeblog"	
     text = "Humlebæk skaterbane ombygges."
     url = "/Hbriders/posts"
     button_text="Følg med i byggeriet"
