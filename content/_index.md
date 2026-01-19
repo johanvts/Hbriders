@@ -12,7 +12,7 @@
 #Details for the box below the banner
 [services]
   title = "Find skaterbanen"
-  text = "Humlebæk Skaterpark skal ombygges, men er stadig åben."
+  text = "Humlebæk Skaterpark er nu under ombygning."
   map_location = "Nederste Torpenvej 6"
 
 [feature_images]
@@ -32,4 +32,12 @@
     text = "Humlebæk skaterbane ombygges."
     url = "/Hbriders/posts"
     button_text="Følg med i byggeriet"
+    
+  [[feature_images.tile]]
+    image = "img/logo.jpg"
+    title = "Køb Merchandise"	
+    text = "Støt Humlebæk Riders!"
+    url = "https://sport-direct-helsingor.dk/humlebaek-riders/"
+    button_text="Køb Merchandise"
+
 +++
