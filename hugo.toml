@@ -1,4 +1,4 @@
-baseURL = 'https://johanvts.github.io/hbriders/'
+baseURL = 'https://www.hbriders.dk/'
 languageCode = 'da-dk'
 title = 'Proposed Page'
 theme = 'alpha-church'
