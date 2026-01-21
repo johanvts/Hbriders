@@ -23,7 +23,7 @@
     image = "img/blivmedlem.jpg"
     title = "Bliv Medlem"
     text = "Støt forenings arbejde med opførslen af den nye bane."
-    url = "/Hbriders/kontakt"
+    url = "/hbriders/kontakt"
     button_text = "Læs mere"
     
   [[feature_images.tile]]
@@ -37,6 +37,6 @@
     image = "img/byggeblog.jpg"
     title = "Nyheder"	
     text = "Nyheder fra foreningen."
-    url = "/Hbriders/posts"
+    url = "/hbriders/posts/"
     button_text="Nyheder"
 +++
