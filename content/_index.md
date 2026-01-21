@@ -27,9 +27,9 @@
     button_text = "Læs mere"
     
   [[feature_images.tile]]
-    image = "img/logo.jpg"
+    image = "img/logo_long.png"
     title = "Køb vores merchandise"	
-    text = "Støt Humlebæk Riders!"
+    text = "Køb støtter Humlebæk Riders aktiviteter."
     url = "https://sport-direct-helsingor.dk/humlebaek-riders/"
     button_text="Køb vores merchandise!"
 
