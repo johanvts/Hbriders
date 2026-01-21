@@ -1,12 +1,12 @@
 +++
 [banner]
   [[banner.button]]
-      url = "/Hbriders/kontakt"
+      url = "/kontakt"
       text = "Bliv medlem"
       type = "primary"
 
   [[banner.button]]
-      url = "/Hbriders/om"
+      url = "/om"
       text = "Om os"
 
 #Details for the box below the banner
