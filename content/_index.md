@@ -20,6 +20,13 @@
   enable = true
 
   [[feature_images.tile]]
+    image = "img/byggeblog.jpg"
+    title = "Nyheder"	
+    text = "Nyheder fra foreningen."
+    url = "/posts/"
+    button_text="Nyheder"
+
+  [[feature_images.tile]]
     image = "img/blivmedlem.jpg"
     title = "Bliv Medlem"
     text = "Støt forenings arbejde med opførslen af den nye bane."
@@ -32,11 +39,4 @@
     text = "Køb støtter Humlebæk Riders aktiviteter."
     url = "https://sport-direct-helsingor.dk/humlebaek-riders/"
     button_text="Køb vores merchandise!"
-
-  [[feature_images.tile]]
-    image = "img/byggeblog.jpg"
-    title = "Nyheder"	
-    text = "Nyheder fra foreningen."
-    url = "/posts/"
-    button_text="Nyheder"
 +++
